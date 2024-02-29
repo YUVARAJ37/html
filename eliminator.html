@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #responsive-img {
+            max-width: 100%; /* Ensure the image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Ensure proper layout */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+     <CENTER><h1 class="text-center"><b>ELIMINATOR</b></h1></CENTER>   
+     
+        
+        <div class="row">
+            <!-- Eliminator -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    
+                    <div class="card-body">
+                          <!-- Container for the responsive image -->
+    <div id="image-container">
+        <!-- The image itself -->
+        <img id="responsive-img" src="./K2.png" alt="Responsive Image" height="800" width="400">
+    </div>
+
+    <script>
+        // Function to update image size based on container width
+        function updateImageSize() {
+            var containerWidth = document.getElementById('image-container').offsetWidth;
+            var img = document.getElementById('responsive-img');
+            // Set the image width to be the same as the container width
+            img.style.width = containerWidth + 'px';
+        }
+
+        // Call the updateImageSize function initially
+        updateImageSize();
+
+        // Update the image size whenever the window is resized
+        window.onresize = function() {
+            updateImageSize();
+        };
+    </script>
+                       <center> <h2 class="card-title">Eliminator</h2>
+                        <H3><p><strong>Engine Capacity:</strong> 400 cc</p>
+                        <p><strong>Mileage:</strong> 30 kmpl</p>
+                        <p><strong>Transmission:</strong> 6-speed dual clutch</p>
+                        <p><strong>Model:</strong> Eliminator</p>
+                        <p><strong>Price:</strong> ₹562000</p>
+                        <button onclick="addToCart('Eliminator', 185000)" class="btn btn-primary">Add to Cart</button>
+                    </H3></center>
+                    
+                   
+                    
+                     <!-- Container for the responsive image -->
+  <div id="image-container">
+    <!-- The image itself -->
+    <img id="responsive-img" src="./a1.jpg" alt="Responsive Image">
+</div>
+
+<script>
+    // Function to update image size based on container width
+    function updateImageSize() {
+        var containerWidth = document.getElementById('image-container').offsetWidth;
+        var img = document.getElementById('responsive-img');
+        // Set the image width to be the same as the container width
+        img.style.width = containerWidth + 'px';
+    }
+
+    // Call the updateImageSize function initially
+    updateImageSize();
+
+    // Update the image size whenever the window is resized
+    window.onresize = function() {
+        updateImageSize();
+    };
+  </script>
+                    <center><h2>MY24 <br>
+                        ELIMINATOR <br>
+                        EURO 5 <br>
+                        Starting At <br>
+                        Rs.5,62,000 <br>
+                        (Ex-Showroom) <br>
+                        GET ON-ROAD PRICE br
+                        
+                        *Product pictures shown are for illustration purpose only. <br>
+                        
+                        *Actual product may vary from the picture shown here. <br>
+                        
+                        *Specification and pricing are subject to change.</h2></center>
+                     <!-- Container for the responsive image -->
+  <div id="image-container">
+    <!-- The image itself -->
+    <img id="responsive-img" src="./a3.jpg" alt="Responsive Image">
+</div>
+
+<script>
+    // Function to update image size based on container width
+    function updateImageSize() {
+        var containerWidth = document.getElementById('image-container').offsetWidth;
+        var img = document.getElementById('responsive-img');
+        // Set the image width to be the same as the container width
+        img.style.width = containerWidth + 'px';
+    }
+
+    // Call the updateImageSize function initially
+    updateImageSize();
+
+    // Update the image size whenever the window is resized
+    window.onresize = function() {
+        updateImageSize();
+    };
+  </script>
+                    
+                    </div>
+                </div>
+</body>
+</html>

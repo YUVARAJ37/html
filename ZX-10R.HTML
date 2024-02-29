@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Responsive Image</title>
+    <style>
+        #responsive-img {
+            max-width: 100%; /* Ensure the image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Ensure proper layout */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+      </style>
+</head>
+<body> <div class="col-md-4 mb-4">
+    <div class="card">
+       <center> 
+        <!-- Container for the responsive image -->
+ <div id="image-container">
+   <!-- The image itself -->
+   <img id="responsive-img" src="./K10.png" alt="Responsive Image">
+</div>
+
+<script>
+   // Function to update image size based on container width
+   function updateImageSize() {
+       var containerWidth = document.getElementById('image-container').offsetWidth;
+       var img = document.getElementById('responsive-img');
+       // Set the image width to be the same as the container width
+       img.style.width = containerWidth + 'px';
+   }
+
+   // Call the updateImageSize function initially
+   updateImageSize();
+
+   // Update the image size whenever the window is resized
+   window.onresize = function() {
+       updateImageSize();
+   };
+ </script>
+        <div class="card-body">
+            <h2 class="card-title">Ninja ZX-10R</h2>
+           <h2> <p><strong>Engine Capacity:</strong> 998 cc</p>
+            <p><strong>Mileage:</strong> 19 kmpl</p>
+            <p><strong>Transmission:</strong> 6 gear</p>
+            <p><strong>Model:</strong> ZX-10R </p>
+            <p><strong>Price:</strong>Rs.16,63,000</p>
+            <button onclick="addToCart('',Rs.16,63,000)" class="btn btn-primary">Add to Cart</button></center>
+       
+         <!-- Container for the responsive image -->
+  <div id="image-container">
+    <!-- The image itself -->
+    <img id="responsive-img" src="./zz1.jpg" alt="Responsive Image">
+</div>
+
+<script>
+    // Function to update image size based on container width
+    function updateImageSize() {
+        var containerWidth = document.getElementById('image-container').offsetWidth;
+        var img = document.getElementById('responsive-img');
+        // Set the image width to be the same as the container width
+        img.style.width = containerWidth + 'px';
+    }
+
+    // Call the updateImageSize function initially
+    updateImageSize();
+
+    // Update the image size whenever the window is resized
+    window.onresize = function() {
+        updateImageSize();
+    };
+  </script>
+       
+         <!-- Container for the responsive image -->
+  <div id="image-container">
+    <!-- The image itself -->
+    <img id="responsive-img" src="./zz2.jpg" alt="Responsive Image">
+</div>
+
+<script>
+    // Function to update image size based on container width
+    function updateImageSize() {
+        var containerWidth = document.getElementById('image-container').offsetWidth;
+        var img = document.getElementById('responsive-img');
+        // Set the image width to be the same as the container width
+        img.style.width = containerWidth + 'px';
+    }
+
+    // Call the updateImageSize function initially
+    updateImageSize();
+
+    // Update the image size whenever the window is resized
+    window.onresize = function() {
+        updateImageSize();
+    };
+  </script>
+       <center><h2>NINJA ZX-10R
+        BS6 <br>
+        Starting At <br>
+        Rs.16,63,000 <br>
+        (Ex-Showroom) <br>
+        GET ON-ROAD PRICE <br>
+        *Product pictures shown are for illustration purpose only. <br>
+        
+        *Actual product may vary from the picture shown here. <br>
+        
+        *Specification and pricing are subject to change.</h2></center>
+       
+         <!-- Container for the responsive image -->
+  <div id="image-container">
+    <!-- The image itself -->
+    <img id="responsive-img" src="./zz3.jpg" alt="Responsive Image">
+</div>
+
+<script>
+    // Function to update image size based on container width
+    function updateImageSize() {
+        var containerWidth = document.getElementById('image-container').offsetWidth;
+        var img = document.getElementById('responsive-img');
+        // Set the image width to be the same as the container width
+        img.style.width = containerWidth + 'px';
+    }
+
+    // Call the updateImageSize function initially
+    updateImageSize();
+
+    // Update the image size whenever the window is resized
+    window.onresize = function() {
+        updateImageSize();
+    };
+  </script>
+        </h2>  </div>
+    </div>
+</div>
+</body>
+</html>
